@@ -15,7 +15,6 @@ function App() {
         <Route path="/" element={<>
           <Banner/>
           <Movies />
-          <Pagination />
         </>}/>
         <Route path="/favourites" element={<Favourites />}/>
       </Routes>
